@@ -41,9 +41,11 @@ page 50105 "TvShowsCues"
                 }
                 field(Field2; Rec.Field2) { }
                 field(Field3; Rec.Field3) { }
-                field(" Tv Types"; Rec." Tv Types")
+                field(" Tv Types"; Rec."TvTypes")
                 {
                     ApplicationArea = All;
+                    DrillDownPageId = "Tv Show Type";
+
                 }
 
             }

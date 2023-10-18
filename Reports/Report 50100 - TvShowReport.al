@@ -3,7 +3,7 @@ report 50100 "TvShowReport"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultLayout = Word;
-    WordLayout = 'Tvshow.docx';
+    WordLayout = 'Reports\Report 50101 -Tvshow.docx';
 
 
     dataset

@@ -76,6 +76,18 @@ page 50102 "Tv Show Role"
 
 
             }
+            group(SectionsGroupp)
+            {
+                Caption = 'TvShow Playlist';
+                action(st1)
+                {
+                    RunObject = page "Playlist list";
+                    Caption = 'TvShow Playlist';
+                    ApplicationArea = all;
+                }
+
+
+            }
         }
         area(Embedding)
         {

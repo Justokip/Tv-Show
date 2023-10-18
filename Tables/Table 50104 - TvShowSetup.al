@@ -12,6 +12,12 @@ table 50104 "Tv Show Setup"
         field(2; "No.Series"; Code[20])
         {
             TableRelation = "No. Series";
+            Caption = 'TvShow No.Series';
+        }
+        field(3; Name; code[20])
+        {
+            TableRelation = "No. Series";
+            Caption = 'Playlist No.Series';
         }
     }
 

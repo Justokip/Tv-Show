@@ -4,8 +4,8 @@ page 50106 "TvShow Setup Page"
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "Tv Show Setup";
-    InsertAllowed=false;
-    DeleteAllowed=false;
+    InsertAllowed = false;
+    DeleteAllowed = false;
 
     layout
     {
@@ -16,9 +16,10 @@ page 50106 "TvShow Setup Page"
                 field("No.Series"; Rec."No.Series")
                 {
                     ApplicationArea = All;
-
-
-
+                }
+                field(Name;Rec.Name)
+                {
+                    ApplicationArea = All;
                 }
             }
         }

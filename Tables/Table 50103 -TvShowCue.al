@@ -26,9 +26,10 @@ table 50103 "TvShowCue"
         {
             DataClassification = ToBeClassified;
             Caption = 'Subscribers';
+            
         }
         field(5; "No of users logged on"; Duration) { }
-    field(6; " Tv Types"; Integer)
+    field(6; "TvTypes"; Integer)
     {
         //DataClassification = ToBeClassified;
         FieldClass = FlowField;
